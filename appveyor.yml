@@ -28,7 +28,10 @@ environment:
   - JAVA_HOME: C:\Program Files\Java\jdk9
   - JAVA_HOME: C:\Program Files\Java\jdk10
 
-test: off
+#test: off
+
+build: off
+deploy: off
 
 matrix:
   fast_finish: true

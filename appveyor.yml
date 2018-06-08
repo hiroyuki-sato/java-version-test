@@ -6,6 +6,7 @@ version: "{branch} {build}"
 install:
 # - if not exist C:\Users\appveyor\handle mkdir C:\Users\appveyor\handle
 # - if not exist C:\Users\appveyor\handle\handle.exe appveyor DownloadFile "https://live.sysinternals.com/handle.exe" -FileName "C:\Users\appveyor\handle\handle.exe"
+  - set PATH=%JAVA_HOME%\bin;%PATH%
 
 # To avoid call-selfrun.bat FileNotFound exception, it installs and uses handle.exe as workaround provided by AppVeyor support.
 # see http://help.appveyor.com/discussions/problems/5975-the-process-cannot-access-the-file-because-it-is-being-used-by-another-process

@@ -1,2 +1,2 @@
 
-%JAVA_HOME%\bin\java -fullversion
+"%JAVA_HOME%\bin\java" -fullversion

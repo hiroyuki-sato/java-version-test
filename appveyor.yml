@@ -1,7 +1,7 @@
 version: "{branch} {build}"
 
-build:
-  verbosity: detailed
+#build:
+#  verbosity: detailed
 
 install:
 # - if not exist C:\Users\appveyor\handle mkdir C:\Users\appveyor\handle

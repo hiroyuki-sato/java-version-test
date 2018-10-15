@@ -1,4 +1,5 @@
 
+java -version
 embulk example test
 echo "test"
 embulk guess test\seed.yml -o config.yml
